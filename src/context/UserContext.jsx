@@ -8,7 +8,7 @@ export const UserContext=createContext({})
 
 
 export function UserContextProvider({children}){
-    const URL = "http://localhost:5000";
+    const URL = "https://blogger-back-k4i5.onrender.com";
     const [user,setUser]=useState(null)
 
     useEffect(()=>{
